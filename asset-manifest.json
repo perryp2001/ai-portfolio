@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ai-portfolio/static/css/main.095248f7.css",
-    "main.js": "/ai-portfolio/static/js/main.83148c3c.js",
+    "main.js": "/ai-portfolio/static/js/main.1e9e0c2e.js",
     "static/js/453.f4fbaa6d.chunk.js": "/ai-portfolio/static/js/453.f4fbaa6d.chunk.js",
     "static/media/Home Automation System.pdf": "/ai-portfolio/static/media/Home Automation System.e776fd2931c872ca5902.pdf",
     "static/media/Solar.png": "/ai-portfolio/static/media/Solar.6903cb67c27f15b46d48.png",
@@ -20,11 +20,11 @@
     "static/media/WECS.jpg": "/ai-portfolio/static/media/WECS.682bc163002a5100f0a5.jpg",
     "index.html": "/ai-portfolio/index.html",
     "main.095248f7.css.map": "/ai-portfolio/static/css/main.095248f7.css.map",
-    "main.83148c3c.js.map": "/ai-portfolio/static/js/main.83148c3c.js.map",
+    "main.1e9e0c2e.js.map": "/ai-portfolio/static/js/main.1e9e0c2e.js.map",
     "453.f4fbaa6d.chunk.js.map": "/ai-portfolio/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.095248f7.css",
-    "static/js/main.83148c3c.js"
+    "static/js/main.1e9e0c2e.js"
   ]
 }
