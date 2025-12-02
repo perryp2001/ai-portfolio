@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard';
 
 import WECSreport from '../assets/pdfs/Wind Energy Conversion System.pdf';
 import HAreport from '../assets/pdfs/Home Automation System.pdf';
-import SMPSreport from '../assets/pdfs/Modeling and analysis of linear and switching power supply architectures.pdf';
+import SMPSreport from '../assets/pdfs/SMPS.pdf';
 import Moviereport from '../assets/pdfs/Movie Recommendation Engine.pdf';
 import Solarreport from '../assets/pdfs/Solar Insolation Algoirthm.pdf';
 import WECS from '../assets/images/WECS.jpg';

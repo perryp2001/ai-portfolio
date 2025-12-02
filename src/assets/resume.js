@@ -201,7 +201,7 @@ reportURL= portfolio/pdfs/Movie Recommendation Engine.pdf
 Modeling and analysis of linear and switching power supply architectures | PSIM, Waveform analysis
 Date: Feb. 2021 - May 2021
 Description: Designed and simulated a ±12 V linear supply and a closed-loop 5 V/5 A buck converter, benchmarking regulation, ripple, and efficiency across both architectures, with the SMPS achieving ~80% conversion efficiency under load.
-reportURL= portfolio/pdfs/Modeling and analysis of linear and switching power supply architectures.pdf
+reportURL= portfolio/pdfs/SMPS.pdf
 
 Solar insolation algorithm | MATLAB, Data analysis & estimation
 Date: Jan. 2021 - Mar. 2021
