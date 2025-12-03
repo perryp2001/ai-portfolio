@@ -7,7 +7,7 @@ import ParthResume from '../assets/pdfs/Parth_Patel_EE_3yr_Exp.pdf';
 import AISearchBox from './AISearchBox';
 import { Context } from '../App';
 function Introduction() {
-    const [messages, setMessages] = useContext(Context);
+    const [, setMessages] = useContext(Context);
     useEffect(() => {
         AOS.init();
     }, []);

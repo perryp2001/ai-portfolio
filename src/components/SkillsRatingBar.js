@@ -8,7 +8,7 @@ const SkillsRatingBar = ({ SkillName, SkillRating, SkillType }) => {
     AOS.init();
   }, []);
 
-  const [messages, setMessages] = useContext(Context);
+  const [, setMessages] = useContext(Context);
 
   function handleMouseLeave() {
     setMessages((prevMessages) => [

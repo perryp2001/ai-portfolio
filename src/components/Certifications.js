@@ -17,7 +17,7 @@ function Certifications() {
       //mirror: true,    // <-- remove; this often causes “weird” behavior
     });
 
-    const timeoutId = setTimeout(() => {
+    setTimeout(() => {
     AOS.refreshHard();   // refreshHard is more reliable than refresh()
   }, 200); 
   

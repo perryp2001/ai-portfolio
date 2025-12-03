@@ -6,7 +6,7 @@ import { Context } from '../App';
 
 const ProjectCard = ({ title, content, imageUrl, videoUrl, githubUrl }) => {
 
-    const [messages, setMessages] = useContext(Context);
+    const [, setMessages] = useContext(Context);
     useEffect(() => {
         AOS.init();
 

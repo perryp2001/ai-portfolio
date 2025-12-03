@@ -20,11 +20,13 @@ function AISearchBox() {
     }, []);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setPlaceholderIndex((prevIndex) => (prevIndex + 1) % placeholders.length);
-        }, 3000); // Change placeholder every 3 seconds
-        return () => clearInterval(interval);
-    }, []);
+  const interval = setInterval(() => {
+    setPlaceholderIndex((prev) => (prev + 1) % placeholders.length);
+  }, 2000);
+
+  return () => clearInterval(interval);
+}, [placeholders.length]);   // ✅
+
 
     const handleSendMessage = async (e) => {
         e.preventDefault();
@@ -80,12 +82,12 @@ function AISearchBox() {
         <div>
             <div >
 
-                <a  onClick={handleStartConversation}  className="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+                <button type="button" onClick={handleStartConversation}  className="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
                     <span  className="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 me-3" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">New</span> <span className="text-sm font-medium">New info AI Available check it out</span>
                     <svg className="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" strokelinecap="round" strokelinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                     </svg>
-                </a>
+                </button>
                 
 
             </div>
