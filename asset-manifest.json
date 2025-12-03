@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ai-portfolio/static/css/main.095248f7.css",
-    "main.js": "/ai-portfolio/static/js/main.1e9e0c2e.js",
+    "main.css": "/ai-portfolio/static/css/main.5e8ae9bc.css",
+    "main.js": "/ai-portfolio/static/js/main.1795aac3.js",
     "static/js/453.f4fbaa6d.chunk.js": "/ai-portfolio/static/js/453.f4fbaa6d.chunk.js",
     "static/media/Home Automation System.pdf": "/ai-portfolio/static/media/Home Automation System.e776fd2931c872ca5902.pdf",
     "static/media/Solar.png": "/ai-portfolio/static/media/Solar.6903cb67c27f15b46d48.png",
-    "static/media/SMPS.png": "/ai-portfolio/static/media/SMPS.a98bec2d37bbf7b10507.png",
+    "static/media/SMPS.png": "/ai-portfolio/static/media/SMPS.4b6e89ee668fad8ff296.png",
     "static/media/Movie Recommendation Engine.pdf": "/ai-portfolio/static/media/Movie Recommendation Engine.2edf5c4c7ed6cfa1265b.pdf",
     "static/media/SMPS.pdf": "/ai-portfolio/static/media/SMPS.cc272c1d2b0af662b256.pdf",
     "static/media/Wind Energy Conversion System.pdf": "/ai-portfolio/static/media/Wind Energy Conversion System.9a6d382542d139c3a83e.pdf",
-    "static/media/MR.png": "/ai-portfolio/static/media/MR.93ac6c24089c02a61bb4.png",
+    "static/media/MR.png": "/ai-portfolio/static/media/MR.16baebc169a0018fb78a.png",
     "static/media/Solar Insolation Algoirthm.pdf": "/ai-portfolio/static/media/Solar Insolation Algoirthm.4e37c67258bb5b308176.pdf",
     "static/media/FPGA.pdf": "/ai-portfolio/static/media/FPGA.85d12858286950a1c046.pdf",
     "static/media/ML.pdf": "/ai-portfolio/static/media/ML.76d6d1085ae6cc073427.pdf",
@@ -19,12 +19,12 @@
     "static/media/Parth_Patel_EE_3yr_Exp.pdf": "/ai-portfolio/static/media/Parth_Patel_EE_3yr_Exp.9cf7c5d5b8cb799d2ba9.pdf",
     "static/media/WECS.jpg": "/ai-portfolio/static/media/WECS.682bc163002a5100f0a5.jpg",
     "index.html": "/ai-portfolio/index.html",
-    "main.095248f7.css.map": "/ai-portfolio/static/css/main.095248f7.css.map",
-    "main.1e9e0c2e.js.map": "/ai-portfolio/static/js/main.1e9e0c2e.js.map",
+    "main.5e8ae9bc.css.map": "/ai-portfolio/static/css/main.5e8ae9bc.css.map",
+    "main.1795aac3.js.map": "/ai-portfolio/static/js/main.1795aac3.js.map",
     "453.f4fbaa6d.chunk.js.map": "/ai-portfolio/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.095248f7.css",
-    "static/js/main.1e9e0c2e.js"
+    "static/css/main.5e8ae9bc.css",
+    "static/js/main.1795aac3.js"
   ]
 }
