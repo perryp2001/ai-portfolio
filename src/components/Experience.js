@@ -56,11 +56,12 @@ function Experience() {
             </svg>
           </span>
           <h3
-            className="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+            className="mb-0.85 text-xl font-semibold text-gray-900 dark:text-white"
             data-aos="fade-right"
           >
-            Datalogic (R&amp;D Hardware Engineer)
+            Datalogic 
           </h3>
+          <p className="text-base mb-1 font-semibold italic text-gray-400" data-aos="fade-right">R&amp;D Hardware Engineer</p>
           <time
             className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400"
             data-aos="fade-right"
@@ -70,7 +71,7 @@ function Experience() {
           <p
             className="block mb-2 text-sm font-semibold leading-snug bg-clip-text text-transparent 
                    bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-200
-                   whitespace-nowrap"
+                   whitespace-normal break-words"
             data-aos="fade-right"
           >
             Technical skillset: Hardware design &amp; PCB layout, Board bring up,
@@ -108,7 +109,7 @@ function Experience() {
               architectural decisions.
             </li>
             <li data-aos="fade-right">
-              Designed buck converters (5V@18A at 95%, 0.85V@18A at 90%) and programmed &gt;100 MHz clock generators (LVDS/LVCMOS/HCSL), achieving &lt;10 ps TIE jitter for FPGA/NNA/COMe accelerators.
+              Designed buck converters (5V,18A @ 95%, 0.85V,18A @ 90%) and programmed &gt;100 MHz clock generators (LVDS/LVCMOS/HCSL), achieving &lt;10 ps TIE jitter for FPGA/NNA/COMe accelerators.
             </li>
           </ul>
         </li>
@@ -127,27 +128,28 @@ function Experience() {
             </svg>
           </span>
           <h3
-            className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+            className="mb-0.85 text-xl font-semibold text-gray-900 dark:text-white"
             data-aos="fade-right"
           >
-            Hitachi Hi-Rel Power Electronics Pvt. Ltd. (Project Intern)
+            Hitachi Hi-Rel Power Electronics Pvt. Ltd.
           </h3>
+          <p className="text-base mb-1 font-semibold italic text-gray-400" data-aos="fade-right">Project Intern</p>
           <time
             className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400"
             data-aos="fade-right"
           >
-            Jan 2022 - May 2022
+            Jan. 2022 - May 2022
           </time>
-          <time
+          <p
             className="block mb-2 text-sm font-semibold leading-snug bg-clip-text text-transparent 
                        bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-200
-                       whitespace-nowrap"
+                       whitespace-normal break-words"
             data-aos="fade-right"
           >
             Technical skillset: Switched mode power supply, Grid tied solar
             inverter, Power electronic converters, Lean manufacturing
             principles
-          </time>
+          </p>
 
           <ul className="space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
             <li data-aos="fade-right">
@@ -164,49 +166,61 @@ function Experience() {
 
           {/* Project report button */}
           
-            <div className="mt-4 flex flex-wrap gap-3">
+            <div className="mt-4 flex flex-wrap gap-3" data-aos="fade-right">
               <a
-                href = "portfolio/pdfs/Hitachi_Internship_Report.pdf"
+                href ="pdfs/Hitachi_Internship_report.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 <svg
-                  className="w-4 h-4 mr-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                > 
-                  <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
-                  <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-                </svg>
-                Internship Project Report
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.8}
+                    stroke="currentColor"
+                    className="w-4 h-4 mr-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 12s3.75-7.5 9.75-7.5S21.75 12 21.75 12s-3.75 7.5-9.75 7.5S2.25 12 2.25 12z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                View Project Report
               </a>
              {/* View certificate button with eye icon */}
              <a
-                 href="portfolio/pdfs/Hitachi Certificate.pdf"
+                 href="pdfs/Hitachi Certificate.pdf"
                  target="_blank"
                  rel="noreferrer"
                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
              >
 
                  <svg
-                     className="w-4 h-4 mr-2"
-                     aria-hidden="true"
-                     xmlns="http://www.w3.org/2000/svg"
-                     fill="none"
-                     viewBox="0 0 24 24"
-                     stroke="currentColor"
-                     strokeWidth="1.8"
-                >
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.8}
+                    stroke="currentColor"
+                    className="w-4 h-4 mr-1"
+                  >
                     <path
-                     strokeLinecap="round"
-                     strokeLinejoin="round"
-                     d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 12s3.75-7.5 9.75-7.5S21.75 12 21.75 12s-3.75 7.5-9.75 7.5S2.25 12 2.25 12z"
                     />
-                    <circle cx="12" cy="12" r="3" />
-                </svg>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
                 View Certificate
 
 

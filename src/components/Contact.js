@@ -28,7 +28,7 @@ function Contact() {
           <svg
             className="w-10 h-10 
                        transition-all duration-300
-                       text-[#D3D3D3] 
+                       text-blue-600 
                        group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -50,7 +50,7 @@ function Contact() {
           <svg
             className="w-10 h-10
                        transition-all duration-300
-                       text-[#0A66C2]
+                       text-blue-600
                        group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

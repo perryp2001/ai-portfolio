@@ -13,10 +13,10 @@ function AISearchBox() {
         "What projects has Parth worked on?",
         "How can Parth help your team?"
     ];
-    const chatService = new ChatService(process.env.REACT_APP_HUGGINGFACE_API_KEY);
+    const chatService = new ChatService();
 
     useEffect(() => {
-        setReplyText("A passionate and experienced Electrical Hardware engineer with expertise in new product development, boards design, Power supplies, and Cost reduction. How can I help You today?");
+        setReplyText("A passionate and experienced Electrical Hardware engineer with expertise in new product development, boards design, Power supplies, and Cost reduction. How can I help you today?");
     }, []);
 
     useEffect(() => {

@@ -33,29 +33,29 @@ function Certifications() {
   const certifications = [
     {
       name: 'Introduction to FPGA Design',
-      issuer: 'CU Boulder through Coursera',
-      date: 'March, 2024',
+      issuer: 'CU Boulder',
+      date: 'Mar. 2024',
       desc: 'Foundational course covering FPGA architectures, digital logic implementation, and embedded system integration.',
       link: FPGA,
     },
     {
       name: 'Machine Learning',
-      issuer: 'Stanford through Coursera',
-      date: 'September, 2021',
+      issuer: 'Stanford',
+      date: 'Sept. 2021',
       desc: 'Introductory course covering supervised, unsupervised models, neural networks, and real-world predictive applications.',
       link: ML,
     },
     {
       name: 'Fundamentals of Deep Learning',
       issuer: 'NVIDIA DLI',
-      date: 'July, 2021',
+      date: 'July. 2021',
       desc: 'Introductory workshop covering MNIST image classification using neural networks, model training basics, and evaluation concepts.',
       link: DL,
     },
     {
       name: 'Crash Course on Python',
-      issuer: 'Google through Coursera',
-      date: 'October, 2021',
+      issuer: 'Google',
+      date: 'Oct. 2021',
       desc: 'Hands-on Python crash course covering core programming, automation scripts, data types, and practical applications.',
       link: Python,
     },
@@ -88,18 +88,17 @@ function Certifications() {
             data-aos-once="false"
           >
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                 {cert.name}
               </h3>
               <p
                 className="block mb-2 text-sm font-semibold leading-snug
                            bg-clip-text text-transparent
-                           bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-200
-                           whitespace-nowrap"
+                           bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-200"
               >
                 {cert.issuer} &middot; {cert.date}
               </p>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-3">
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-3">
                 {cert.desc}
               </p>
             </div>

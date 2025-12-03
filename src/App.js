@@ -27,8 +27,8 @@ function App() {
 
   return (
     <Context.Provider value={[ messages, setMessages]}>
-      <div className="flex bg-white dark:bg-gray-900">
-        <div className="w-3/3">
+      <div className="min-h-screen w-full bg-white dark:bg-gray-900 overflow-x-hidden">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <Introduction></Introduction>
           <Experience></Experience>
           <Skills></Skills>
