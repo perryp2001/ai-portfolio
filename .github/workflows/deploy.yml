@@ -1,37 +1,33 @@
-name: Deploy Portfolio
+name: Deploy React app to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+
+permissions:
+  contents: write  # 👈 important for pushing to gh-pages
 
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
-      - name: Install
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Inject HuggingFace Key
-        run: |
-          echo "HF_API_KEY=$HF_API_KEY" > .env
-        env:
-          HF_API_KEY: ${{ secrets.HF_API_KEY }}
-
-      - name: Build
+      - name: Build React app
         run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # 👈 use built-in token
+          publish_dir: ./build                       # 👈 CRA output folder
