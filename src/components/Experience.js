@@ -15,6 +15,7 @@ function Experience() {
   }, []);
 
   function handleMouseLeave() {
+    if (experiencesVisited) return;
     setExperiencesVisited(true);
     setMessages(prevMessages => [
       ...prevMessages,
@@ -29,7 +30,7 @@ function Experience() {
   return (
     <div id="experience"
       className="relative p-8"
-      onMouseLeave={experiencesVisited ? null : handleMouseLeave}
+      onMouseLeave= {handleMouseLeave}
     >
       <h2
         className="text-3xl font-semibold text-gray-900 dark:text-white"
