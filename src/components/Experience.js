@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import { Context } from '../App';
 
 function Experience() {
-  const [setMessages] = useContext(Context);
+  const [, setMessages] = useContext(Context);
   const [experiencesVisited, setExperiencesVisited] = useState(false);
 
   useEffect(() => {
